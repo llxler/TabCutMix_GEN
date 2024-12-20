@@ -1,0 +1,50 @@
+{
+    "name": "adult",
+    "task_type": "binclass",
+    "header": null,
+    "column_names": [
+        "age",
+        "education.num",
+        "marital.status",
+        "occupation",
+        "relationship",
+        "race",
+        "capital.loss",
+        "hours.per.week",
+        "native.country",
+        "income"
+    ],
+    "num_col_idx": [
+        0,
+        1,
+        6,
+        7
+    ],
+    "cat_col_idx": [
+        2,
+        3,
+        4,
+        5,
+        8
+    ],
+    "target_col_idx": [
+        9
+    ],
+    "file_type": "csv",
+    "data_path": "data/adult/adult_0.7.csv",
+    "test_path": "data/adult/test.csv",
+    "column_info": {
+        "age": "float",
+        "education.num": "float",
+        "marital.status": "str",
+        "occupation": "str",
+        "relationship": "str",
+        "race": "str",
+        "capital.loss": "float",
+        "hours.per.week": "float",
+        "native.country": "str",
+        "income": "str"
+    },
+    "train_num": 32561,
+    "test_num": 16281
+}

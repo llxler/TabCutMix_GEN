@@ -1,0 +1,31 @@
+{
+    "name": "default",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": null,
+    "num_col_idx": [
+        0,
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+    ],
+    "cat_col_idx": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+    ],
+    "target_col_idx": [
+        15
+    ],
+    "file_type": "xls",
+    "data_path": "data/default/default of credit card clients_0.7.csv",
+    "test_path": null
+}

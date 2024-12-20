@@ -1,0 +1,34 @@
+{
+    "name": "magic",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": [
+        "Length",
+        "Width",
+        "Size",
+        "Conc",
+        "Conc1",
+        "Asym",
+        "M3Long",
+        "M3Trans",
+        "Alpha",
+        "Dist",
+        "class"
+    ],
+    "num_col_idx": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "cat_col_idx": [],
+    "target_col_idx": [
+        7
+    ],
+    "file_type": "csv",
+    "data_path": "data/magic/magic04_0.7.csv",
+    "test_path": null
+}
